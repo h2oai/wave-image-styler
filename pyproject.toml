@@ -29,9 +29,9 @@ pytorch-lightning ="^1.5.0"
 diffusers = "^0.16.0"
 torchvision = "^0.15.1"
 numpy = "^1.21.6"
-Pillow = "^9.0.1"
+Pillow = "^10.4.0"
 aiofiles = "^0.8.0"
-python-multipart = "^0.0.5"
+python-multipart = "^0.0.12"
 loguru = "^0.6.0"
 opencv-python = "^4.5.5"
 pandas = "^1.2.4"
@@ -64,7 +64,7 @@ accelerate="^0.17.0"
 [tool.poetry.dev-dependencies]
 pylint = { version = "^2.12.2", allow-prereleases = true }
 flake8 = { version = "^4.0.1", allow-prereleases = true }
-black = { version = "21.12b0", allow-prereleases = true }
+black = { version = "24.8.0", allow-prereleases = true }
 
 [tool.black]
 line-length = 120
